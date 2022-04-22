@@ -213,6 +213,8 @@ Public Class FormVentas
         txtTotal.Text = ""
 
         Dim cant As String = InputBox("Ingresa la cantidad de gramos, cucharadas o porcion que va a vender", "Cantidad")
+        cbProductosV.Focus()
+
         If cant <> "" Then
             Dim row As Integer = 0
             Dim ban As Boolean = False
